@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
 </head>
+
 <body>
-	<h1>Hello World!</h1>
+    <h1>Veritas</h1>
+    <form name="nouhin_form" th:action="@{/nouhin}" method="post">
+        <button type="submit">納品報告</button><br>
+    </form>
+    <form name="keihi_form" th:action="@{/nextpage}" method="post">
+        <button type="submit">経費申請</button><br>
+    </form>
+    <form name="craft_form" th:action="@{/nextpage}" method="post">
+        <button type="submit">クラフト</button><br>
+    </form>
+
 </body>
+
 </html>
